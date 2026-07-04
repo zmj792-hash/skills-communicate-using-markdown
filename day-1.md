@@ -4,3 +4,6 @@
 - [ ] 学习 [GitHub Pages](https://skills.github.com/#first-day-on-github) 的使用方法 
 - [ ] 将我的第一篇博客转换为网页形式
 ## Review
+```bash
+ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
+```
